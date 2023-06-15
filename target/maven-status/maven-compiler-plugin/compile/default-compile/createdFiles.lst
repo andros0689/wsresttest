@@ -1,0 +1,5 @@
+com/openshiftintegration/esb/wsresttest/properties/RestConsumer.class
+com/openshiftintegration/esb/wsresttest/routes/RestConsumerRoute.class
+com/openshiftintegration/esb/wsresttest/Application.class
+com/openshiftintegration/esb/wsresttest/configurator/ConfigurationRoute.class
+com/openshiftintegration/esb/wsresttest/transformations/TransformationComponent.class

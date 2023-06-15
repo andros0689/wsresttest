@@ -1,0 +1,25 @@
+apiVersion: build.openshift.io/v1
+kind: BuildConfig
+metadata:
+  labels:
+    app: #{APPLICATION_NAME}#
+    group: com.avianca.esb
+  name: #{APPLICATION_NAME}#-s2i
+spec:
+  output:
+    to:
+      kind: ImageStreamTag
+      name: #{APPLICATION_NAME}#:latest
+  source:
+    binary: {}
+    type: Binary
+  strategy:
+    sourceStrategy:
+      from:
+        kind: ImageStreamTag
+        name: fuse-java-openshift:latest
+        namespace: openshift
+      pullSecret:
+        name: registry-redhat-io
+    type: Source
+  triggers: []

@@ -1,0 +1,1774 @@
+{
+	"source": 2,
+	"revision": 30,
+	"description": null,
+	"createdBy": {
+		"displayName": "Diego Andres Lozada Forero",
+		"url": "https://spsprodcus3.vssps.visualstudio.com/A02a0d101-5333-44fe-8ef7-4b4596b6cb0b/_apis/Identities/85ffee36-6851-67dc-92f3-5b26b9121947",
+		"_links": {
+			"avatar": {
+				"href": "https://aviancavsts.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.ODVmZmVlMzYtNjg1MS03N2RjLTkyZjMtNWIyNmI5MTIxOTQ3"
+			}
+		},
+		"id": "85ffee36-6851-67dc-92f3-5b26b9121947",
+		"uniqueName": "andres.lozada@avianca.com",
+		"imageUrl": "https://aviancavsts.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.ODVmZmVlMzYtNjg1MS03N2RjLTkyZjMtNWIyNmI5MTIxOTQ3",
+		"descriptor": "aad.ODVmZmVlMzYtNjg1MS03N2RjLTkyZjMtNWIyNmI5MTIxOTQ3"
+	},
+	"createdOn": "2020-02-25T15:02:05.880Z",
+	"modifiedBy": {
+		"displayName": "Diego Andres Lozada Forero",
+		"url": "https://spsprodcus3.vssps.visualstudio.com/A02a0d101-5333-44fe-8ef7-4b4596b6cb0b/_apis/Identities/85ffee36-6851-67dc-92f3-5b26b9121947",
+		"_links": {
+			"avatar": {
+				"href": "https://aviancavsts.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.ODVmZmVlMzYtNjg1MS03N2RjLTkyZjMtNWIyNmI5MTIxOTQ3"
+			}
+		},
+		"id": "85ffee36-6851-67dc-92f3-5b26b9121947",
+		"uniqueName": "andres.lozada@avianca.com",
+		"imageUrl": "https://aviancavsts.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.ODVmZmVlMzYtNjg1MS03N2RjLTkyZjMtNWIyNmI5MTIxOTQ3",
+		"descriptor": "aad.ODVmZmVlMzYtNjg1MS03N2RjLTkyZjMtNWIyNmI5MTIxOTQ3"
+	},
+	"modifiedOn": "2020-02-27T15:11:08.823Z",
+	"isDeleted": false,
+	"lastRelease": {
+		"id": 162,
+		"name": "Release-19",
+		"artifacts": [
+			{
+				"sourceId": "b6417fc9-5bb7-4bd9-8087-28257564b8cf:b460a328-3abc-4909-8a68-1487e9e38f1b",
+				"type": "Git",
+				"alias": "_DevOpsScripts",
+				"definitionReference": {
+					"branches": {
+						"id": "develop",
+						"name": "develop"
+					},
+					"checkoutNestedSubmodules": {
+						"id": "True",
+						"name": "Any nested submodules within"
+					},
+					"checkoutSubmodules": {
+						"id": "",
+						"name": ""
+					},
+					"defaultVersionSpecific": {
+						"id": "",
+						"name": ""
+					},
+					"defaultVersionType": {
+						"id": "latestFromBranchType",
+						"name": "Latest from the default branch"
+					},
+					"definition": {
+						"id": "b460a328-3abc-4909-8a68-1487e9e38f1b",
+						"name": "DevOpsScripts"
+					},
+					"fetchDepth": {
+						"id": "",
+						"name": ""
+					},
+					"gitLfsSupport": {
+						"id": "",
+						"name": ""
+					},
+					"project": {
+						"id": "b6417fc9-5bb7-4bd9-8087-28257564b8cf",
+						"name": "Software Engineering"
+					}
+				},
+				"isRetained": false
+			}
+		],
+		"_links": {},
+		"description": "",
+		"releaseDefinition": {
+			"id": 3,
+			"projectReference": null,
+			"_links": {}
+		},
+		"createdOn": "2020-02-27T15:13:23.570Z",
+		"createdBy": {
+			"displayName": "Diego Andres Lozada Forero",
+			"url": "https://spsprodcus3.vssps.visualstudio.com/A02a0d101-5333-44fe-8ef7-4b4596b6cb0b/_apis/Identities/85ffee36-6851-67dc-92f3-5b26b9121947",
+			"_links": {
+				"avatar": {
+					"href": "https://aviancavsts.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.ODVmZmVlMzYtNjg1MS03N2RjLTkyZjMtNWIyNmI5MTIxOTQ3"
+				}
+			},
+			"id": "85ffee36-6851-67dc-92f3-5b26b9121947",
+			"uniqueName": "andres.lozada@avianca.com",
+			"imageUrl": "https://aviancavsts.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.ODVmZmVlMzYtNjg1MS03N2RjLTkyZjMtNWIyNmI5MTIxOTQ3",
+			"descriptor": "aad.ODVmZmVlMzYtNjg1MS03N2RjLTkyZjMtNWIyNmI5MTIxOTQ3"
+		}
+	},
+	"variables": {
+		"APPLICATION_NAME": {
+			"value": "wsresttest"
+		},
+		"CONFIG_LOCATION": {
+			"value": "/data"
+		},
+		"NAMESPACE": {
+			"value": "<<NAMESPACE>>"
+		},
+		"PCI_COMPLIANCE": {
+			"value": true
+		},
+		"SPRING_CONFIG_LOCATION": {
+			"value": "/data/application.properties"
+		},
+		"validateConfigMap": {
+			"value": "none"
+		}
+	},
+	"variableGroups": [
+		1175
+	],
+	"environments": [
+		{
+			"id": 4,
+			"name": "Dev",
+			"rank": 1,
+			"owner": {
+				"displayName": "Diego Andres Lozada Forero",
+				"url": "https://spsprodcus3.vssps.visualstudio.com/A02a0d101-5333-44fe-8ef7-4b4596b6cb0b/_apis/Identities/85ffee36-6851-67dc-92f3-5b26b9121947",
+				"_links": {
+					"avatar": {
+						"href": "https://aviancavsts.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.ODVmZmVlMzYtNjg1MS03N2RjLTkyZjMtNWIyNmI5MTIxOTQ3"
+					}
+				},
+				"id": "85ffee36-6851-67dc-92f3-5b26b9121947",
+				"uniqueName": "andres.lozada@avianca.com",
+				"imageUrl": "https://aviancavsts.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.ODVmZmVlMzYtNjg1MS03N2RjLTkyZjMtNWIyNmI5MTIxOTQ3",
+				"descriptor": "aad.ODVmZmVlMzYtNjg1MS03N2RjLTkyZjMtNWIyNmI5MTIxOTQ3"
+			},
+			"variables": {
+				"APPLICATION_VERSION": {
+					"value": "1.0.0"
+				},
+				"TZ": {
+					"value": "America/Bogota"
+				},
+				"CPU_REQUEST": {
+					"value": "30m"
+				},
+				"CPU_LIMIT": {
+					"value": "500m"
+				},
+				"MEMORY_LIMIT": {
+					"value": "256Mi"
+				},
+				"MEMORY_REQUEST": {
+					"value": "256Mi"
+				},
+				"KEYVAULT_CLIENT_ID": {
+					"value": ""
+				},
+				"KEYVAULT_CLIENT_KEY": {
+					"value": ""
+				},
+				"KEYVAULT_ENABLED": {
+					"value": "false"
+				},
+				"KEYVAULT_CLIENT_TENANT_ID": {
+					"value": ""
+				},
+				"KEYVAULT_URI": {
+					"value": ""
+				},
+				"APIPATH_CONSUMER_REST": {
+					"value": "api-doc"
+				},
+				"APIBASEPATH_CONSUMER_REST": {
+					"value": "wsresttest"
+				},
+				"SERVICENAME_CONSUMER_REST": {
+					"value": "wsresttest"
+				},
+				"SERVICEID_CONSUMER_REST": {
+					"value": "wsresttest-id"
+				},
+				"CONTEXT_CONSUMER_REST": {
+					"value": "/wsresttest/*"
+				},
+				"INGRESS": {
+					"value": "appspci"
+				},
+				"CLUSTERNAME": {
+					"value": "arodev"
+				},
+				"BASEDOMAIN": {
+					"value": "avtest.ink"
+				},
+				"HOST_PRODUCER_REST": {
+					"value": "host.domain.rest"
+				},
+				"CONTEXT_PRODUCER_REST": {
+					"value": "/context"
+				},
+				"SERVICE_PRODUCER_REST": {
+					"value": "service"
+				},
+				"METHOD_PRODUCER_REST": {
+					"value": "/methodname"
+				},
+				"TYPE_PRODUCER_REST": {
+					"value": "GET - POST"
+				}
+			},
+			"variableGroups": [],
+			"preDeployApprovals": {
+				"approvals": [
+					{
+					"rank": 1,
+					"isAutomated": true,
+					"isNotificationOn": false,
+					"id": 10
+					}
+				],
+				"approvalOptions": {
+					"requiredApproverCount": null,
+					"releaseCreatorCanBeApprover": false,
+					"autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+					"enforceIdentityRevalidation": false,
+					"timeoutInMinutes": 0,
+					"executionOrder": 1
+				}
+			},
+			"deployStep": {
+				"id": 13
+			},
+			"postDeployApprovals": {
+				"approvals": [
+					{
+						"rank": 1,
+						"isAutomated": true,
+						"isNotificationOn": false,
+						"id": 14
+					}
+				],
+				"approvalOptions": {
+					"requiredApproverCount": null,
+					"releaseCreatorCanBeApprover": false,
+					"autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+					"enforceIdentityRevalidation": false,
+					"timeoutInMinutes": 0,
+					"executionOrder": 2
+				}
+			},
+			"deployPhases": [
+				{
+					"deploymentInput": {
+						"parallelExecution": {
+							"parallelExecutionType": 0
+						},
+						"agentSpecification": null,
+						"skipArtifactsDownload": false,
+						"artifactsDownloadInput": {
+							"downloadInputs": []
+						},
+						"queueId": 1221,
+						"demands": [],
+						"enableAccessToken": false,
+						"timeoutInMinutes": 0,
+						"jobCancelTimeoutInMinutes": 1,
+						"condition": "succeeded()",
+						"overrideInputs": {}
+					},
+					"rank": 1,
+					"phaseType": 1,
+					"name": "Agent job",
+					"refName": null,
+					"workflowTasks": [
+						{
+							"environment": {},
+							"taskId": "ebaf1cdc-a60f-4e57-ba29-e3b8f80aeb1e",
+							"version": "2.*",
+							"name": "OCP Apply ConfigMap",
+							"refName": "",
+							"enabled": true,
+							"alwaysRun": false,
+							"continueOnError": false,
+							"timeoutInMinutes": 0,
+							"definitionType": "task",
+							"overrideInputs": {},
+							"condition": "succeeded()",
+							"inputs": {
+								"connectionType": "OpenShift Connection Service",
+								"openshiftService": "b34dbf5b-fe10-4934-b5b6-3aca085176c7",
+								"configurationType": "file",
+								"configurationPath": "",
+								"inlineConfig": "",
+								"version": "",
+								"cmd": "create configmap $(APPLICATION_NAME)-config --from-file=$(system.defaultworkingdirectory)/$(Release.PrimaryArtifactSourceAlias)/drop/src/main/resources -n $(NAMESPACE) --dry-run=true -o yaml | oc apply -n $(NAMESPACE) -f -",
+								"ignoreFlag": "false",
+								"uselocalOc": "true",
+								"proxy": ""
+							}
+						},
+						{
+							"environment": {},
+							"taskId": "ebaf1cdc-a60f-4e57-ba29-e3b8f80aeb1e",
+							"version": "2.*",
+							"name": "OCP set ConfigMap label",
+							"refName": "",
+							"enabled": true,
+							"alwaysRun": false,
+							"continueOnError": false,
+							"timeoutInMinutes": 0,
+							"definitionType": "task",
+							"overrideInputs": {},
+							"condition": "succeeded()",
+							"inputs": {
+								"connectionType": "OpenShift Connection Service",
+								"openshiftService": "b34dbf5b-fe10-4934-b5b6-3aca085176c7",
+								"configurationType": "file",
+								"configurationPath": "",
+								"inlineConfig": "",
+								"version": "",
+								"cmd": "label configmap $(APPLICATION_NAME)-config app=$(APPLICATION_NAME) --overwrite=true -n $(NAMESPACE)",
+								"ignoreFlag": "false",
+								"uselocalOc": "true",
+								"proxy": ""
+							}
+						},
+						{
+							"environment": {},
+							"taskId": "a8515ec8-7254-4ffd-912c-86772e2b5962",
+							"version": "2.*",
+							"name": "Replace tokens in **/*.yml",
+							"refName": "",
+							"enabled": true,
+							"alwaysRun": false,
+							"continueOnError": false,
+							"timeoutInMinutes": 0,
+							"definitionType": "task",
+							"overrideInputs": {},
+							"condition": "succeeded()",
+							"inputs": {
+								"rootDirectory": "$(System.DefaultWorkingDirectory)/$(Release.PrimaryArtifactSourceAlias)/drop",
+								"targetFiles": "**/*.yml",
+								"encoding": "auto",
+								"writeBOM": "true",
+								"actionOnMissing": "warn",
+								"keepToken": "false",
+								"tokenPrefix": "#{",
+								"tokenSuffix": "}#",
+								"emptyValue": "(empty)"
+							}
+						},
+						{
+							"environment": {},
+							"taskId": "ebaf1cdc-a60f-4e57-ba29-e3b8f80aeb1e",
+							"version": "2.*",
+							"name": "OCP Update BuildConfig",
+							"refName": "",
+							"enabled": true,
+							"alwaysRun": false,
+							"continueOnError": false,
+							"timeoutInMinutes": 0,
+							"definitionType": "task",
+							"overrideInputs": {},
+							"condition": "succeeded()",
+							"inputs": {
+								"connectionType": "OpenShift Connection Service",
+								"openshiftService": "b34dbf5b-fe10-4934-b5b6-3aca085176c7",
+								"configurationType": "file",
+								"configurationPath": "",
+								"inlineConfig": "",
+								"version": "",
+								"cmd": "apply -f $(system.defaultworkingdirectory)/$(Release.PrimaryArtifactSourceAlias)/drop/src/main/template/buildconfig.yml -n $(NAMESPACE)",
+								"ignoreFlag": "false",
+								"uselocalOc": "true",
+								"proxy": ""
+							}
+						},
+						{
+							"environment": {},
+							"taskId": "ebaf1cdc-a60f-4e57-ba29-e3b8f80aeb1e",
+							"version": "2.*",
+							"name": "OCP Deploy Template",
+							"refName": "",
+							"enabled": true,
+							"alwaysRun": false,
+							"continueOnError": false,
+							"timeoutInMinutes": 0,
+							"definitionType": "task",
+							"overrideInputs": {},
+							"condition": "succeeded()",
+							"inputs": {
+								"connectionType": "OpenShift Connection Service",
+								"openshiftService": "b34dbf5b-fe10-4934-b5b6-3aca085176c7",
+								"configurationType": "file",
+								"configurationPath": "",
+								"inlineConfig": "",
+								"version": "",
+								"cmd": "process -f $(system.defaultworkingdirectory)/$(Release.PrimaryArtifactSourceAlias)/drop/src/main/template/templateESB.yml | oc apply -n $(NAMESPACE) -f -",
+								"ignoreFlag": "false",
+								"uselocalOc": "true",
+								"proxy": ""
+							}
+						},
+						{
+							"environment": {},
+							"taskId": "ebaf1cdc-a60f-4e57-ba29-e3b8f80aeb1e",
+							"version": "2.*",
+							"name": "OCP Start build image",
+							"refName": "",
+							"enabled": true,
+							"alwaysRun": false,
+							"continueOnError": false,
+							"timeoutInMinutes": 0,
+							"definitionType": "task",
+							"overrideInputs": {},
+							"condition": "succeeded()",
+							"inputs": {
+								"connectionType": "OpenShift Connection Service",
+								"openshiftService": "b34dbf5b-fe10-4934-b5b6-3aca085176c7",
+								"configurationType": "file",
+								"configurationPath": "",
+								"inlineConfig": "",
+								"version": "",
+								"cmd": "start-build $(APPLICATION_NAME)-s2i --from-file=$(system.defaultworkingdirectory)/$(Release.PrimaryArtifactSourceAlias)/drop/target/$(APPLICATION_NAME).jar --follow -n $(NAMESPACE)",
+								"ignoreFlag": "false",
+								"uselocalOc": "true",
+								"proxy": ""
+							}
+						}
+					]
+				}
+			],
+			"environmentOptions": {
+				"emailNotificationType": "OnlyOnFailure",
+				"emailRecipients": "release.environment.owner;release.creator",
+				"skipArtifactsDownload": false,
+				"timeoutInMinutes": 0,
+				"enableAccessToken": false,
+				"publishDeploymentStatus": true,
+				"badgeEnabled": false,
+				"autoLinkWorkItems": false,
+				"pullRequestDeploymentEnabled": false
+			},
+			"demands": [],
+			"conditions": [
+				{
+					"name": "ReleaseStarted",
+					"conditionType": 1,
+					"value": ""
+				}
+			],
+			"executionPolicy": {
+				"concurrencyCount": 1,
+				"queueDepthCount": 0
+			},
+			"schedules": [],
+			"currentRelease": {
+				"id": 162,
+				"url": "https://aviancavsts.vsrm.visualstudio.com/3312eeb5-2d40-4811-a992-99fc45d952fd/_apis/Release/releases/162",
+				"_links": {}
+			},
+			"retentionPolicy": {
+				"daysToKeep": 30,
+				"releasesToKeep": 3,
+				"retainBuild": true
+			},
+			"processParameters": {},
+			"properties": {
+				"BoardsEnvironmentType": {
+					"$opentype": "System.String",
+					"$openvalue": "unmapped"
+				},
+				"LinkBoardsWorkItems": {
+					"$opentype": "System.String",
+					"$openvalue": "False"
+				}
+			},
+			"preDeploymentGates": {
+				"id": 0,
+				"gatesOptions": null,
+				"gates": []
+			},
+			"postDeploymentGates": {
+				"id": 0,
+				"gatesOptions": null,
+				"gates": []
+			},
+			"environmentTriggers": [],
+			"badgeUrl": "https://aviancavsts.vsrm.visualstudio.com/_apis/public/Release/badge/3312eeb5-2d40-4811-a992-99fc45d952fd/3/4"
+		},
+		{
+			"id": 5,
+			"name": "QA",
+			"rank": 2,
+			"owner": {
+				"displayName": "Diego Andres Lozada Forero",
+				"url": "https://spsprodcus3.vssps.visualstudio.com/A02a0d101-5333-44fe-8ef7-4b4596b6cb0b/_apis/Identities/85ffee36-6851-67dc-92f3-5b26b9121947",
+				"_links": {
+					"avatar": {
+						"href": "https://aviancavsts.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.ODVmZmVlMzYtNjg1MS03N2RjLTkyZjMtNWIyNmI5MTIxOTQ3"
+					}
+				},
+				"id": "85ffee36-6851-67dc-92f3-5b26b9121947",
+				"uniqueName": "andres.lozada@avianca.com",
+				"imageUrl": "https://aviancavsts.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.ODVmZmVlMzYtNjg1MS03N2RjLTkyZjMtNWIyNmI5MTIxOTQ3",
+				"descriptor": "aad.ODVmZmVlMzYtNjg1MS03N2RjLTkyZjMtNWIyNmI5MTIxOTQ3"
+			},
+			"variables": {
+				"APPLICATION_VERSION": {
+					"value": "1.0.0"
+				},
+				"TZ": {
+					"value": "America/Bogota"
+				},
+				"CPU_REQUEST": {
+					"value": "30m"
+				},
+				"CPU_LIMIT": {
+					"value": "500m"
+				},
+				"MEMORY_LIMIT": {
+					"value": "256Mi"
+				},
+				"MEMORY_REQUEST": {
+					"value": "256Mi"
+				},
+				"KEYVAULT_CLIENT_ID": {
+					"value": ""
+				},
+				"KEYVAULT_CLIENT_KEY": {
+					"value": ""
+				},
+				"KEYVAULT_ENABLED": {
+					"value": "false"
+				},
+				"KEYVAULT_CLIENT_TENANT_ID": {
+					"value": ""
+				},
+				"KEYVAULT_URI": {
+					"value": ""
+				},
+				"APIPATH_CONSUMER_REST": {
+					"value": "vim"
+				},
+				"APIBASEPATH_CONSUMER_REST": {
+					"value": "api-doc"
+				},
+				"SERVICENAME_CONSUMER_REST": {
+					"value": "wsresttest"
+				},
+				"SERVICEID_CONSUMER_REST": {
+					"value": "wsresttest-id"
+				},
+				"CONTEXT_CONSUMER_REST": {
+					"value": "/wsresttest/*"
+				},,
+				"INGRESS": {
+					"value": "appspci"
+				},
+				"CLUSTERNAME": {
+					"value": "aroqa"
+				},
+				"BASEDOMAIN": {
+					"value": "avtest.ink"
+				},
+				"HOST_PRODUCER_REST": {
+					"value": "host.domain.rest"
+				},
+				"CONTEXT_PRODUCER_REST": {
+					"value": "/context"
+				},
+				"SERVICE_PRODUCER_REST": {
+					"value": "service"
+				},
+				"METHOD_PRODUCER_REST": {
+					"value": "/methodname"
+				},
+				"TYPE_PRODUCER_REST": {
+					"value": "GET - POST"
+				}
+			},
+			"variableGroups": [],
+			"preDeployApprovals": {
+				"approvals": [
+					{
+						"rank": 1,
+						"isAutomated": true,
+						"isNotificationOn": false,
+						"id": 17
+					}
+				],
+				"approvalOptions": {
+					"requiredApproverCount": null,
+					"releaseCreatorCanBeApprover": false,
+					"autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+					"enforceIdentityRevalidation": false,
+					"timeoutInMinutes": 0,
+					"executionOrder": 1
+				}
+			},
+			"deployStep": {
+				"id": 12
+			},
+			"postDeployApprovals": {
+				"approvals": [
+					{
+						"rank": 1,
+						"isAutomated": true,
+						"isNotificationOn": false,
+						"id": 15
+					}
+				],
+				"approvalOptions": {
+					"requiredApproverCount": null,
+					"releaseCreatorCanBeApprover": false,
+					"autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+					"enforceIdentityRevalidation": false,
+					"timeoutInMinutes": 0,
+					"executionOrder": 2
+				}
+			},
+			"deployPhases": [
+				{
+					"deploymentInput": {
+						"parallelExecution": {
+							"parallelExecutionType": 0
+						},
+						"agentSpecification": null,
+						"skipArtifactsDownload": false,
+						"artifactsDownloadInput": {
+							"downloadInputs": []
+						},
+						"queueId": 1221,
+						"demands": [],
+						"enableAccessToken": false,
+						"timeoutInMinutes": 0,
+						"jobCancelTimeoutInMinutes": 1,
+						"condition": "succeeded()",
+						"overrideInputs": {}
+					},
+					"rank": 1,
+					"phaseType": 1,
+					"name": "Agent job",
+					"refName": null,
+					"workflowTasks": [
+						{
+							"environment": {},
+							"taskId": "d9bafed4-0b18-4f58-968d-86655b4d2ce9",
+							"version": "2.*",
+							"name": "Login Registry DEV",
+							"refName": "",
+							"enabled": true,
+							"alwaysRun": false,
+							"continueOnError": false,
+							"timeoutInMinutes": 0,
+							"definitionType": "task",
+							"overrideInputs": {},
+							"condition": "succeeded()",
+							"inputs": {
+								"script": "docker login -u $(ARO_USER_DOCKER_DEV) -p $(ARO_TOKEN_DEV) $(ARO_URL_DOCKER_DEV)",
+								"workingDirectory": "",
+								"failOnStderr": "false"
+							}
+						},
+						{
+							"environment": {},
+							"taskId": "d9bafed4-0b18-4f58-968d-86655b4d2ce9",
+							"version": "2.*",
+							"name": "Login Registry QA",
+							"refName": "",
+							"enabled": true,
+							"alwaysRun": false,
+							"continueOnError": false,
+							"timeoutInMinutes": 0,
+							"definitionType": "task",
+							"overrideInputs": {},
+							"condition": "succeeded()",
+							"inputs": {
+								"script": "docker login -u $(ARO_USER_DOCKER_QA) -p $(ARO_TOKEN_QA) $(ARO_URL_DOCKER_QA)",
+								"workingDirectory": "/home/adminagent/oc-client",
+								"failOnStderr": "false"
+							}
+						},
+						{
+							"environment": {},
+							"taskId": "ebaf1cdc-a60f-4e57-ba29-e3b8f80aeb1e",
+							"version": "2.*",
+							"name": "OCP Apply ConfigMap",
+							"refName": "",
+							"enabled": true,
+							"alwaysRun": false,
+							"continueOnError": false,
+							"timeoutInMinutes": 0,
+							"definitionType": "task",
+							"overrideInputs": {},
+							"condition": "succeeded()",
+							"inputs": {
+								"connectionType": "OpenShift Connection Service",
+								"openshiftService": "ad21606a-841b-4cef-8687-a3471789c976",
+								"configurationType": "file",
+								"configurationPath": "",
+								"inlineConfig": "",
+								"version": "",
+								"cmd": "create configmap $(APPLICATION_NAME)-config --from-file=$(system.defaultworkingdirectory)/$(Release.PrimaryArtifactSourceAlias)/drop/src/main/resources -n $(NAMESPACE) --dry-run=true -o yaml | oc apply -n $(NAMESPACE) -f -",
+								"ignoreFlag": "false",
+								"uselocalOc": "true",
+								"proxy": ""
+							}
+						},
+						{
+							"environment": {},
+							"taskId": "ebaf1cdc-a60f-4e57-ba29-e3b8f80aeb1e",
+							"version": "2.*",
+							"name": "OCP set ConfigMap label",
+							"refName": "",
+							"enabled": true,
+							"alwaysRun": false,
+							"continueOnError": false,
+							"timeoutInMinutes": 0,
+							"definitionType": "task",
+							"overrideInputs": {},
+							"condition": "succeeded()",
+							"inputs": {
+								"connectionType": "OpenShift Connection Service",
+								"openshiftService": "ad21606a-841b-4cef-8687-a3471789c976",
+								"configurationType": "file",
+								"configurationPath": "",
+								"inlineConfig": "",
+								"version": "",
+								"cmd": "label configmap $(APPLICATION_NAME)-config app=$(APPLICATION_NAME) --overwrite=true -n $(NAMESPACE)",
+								"ignoreFlag": "false",
+								"uselocalOc": "true",
+								"proxy": ""
+							}
+						},
+						{
+							"environment": {},
+							"taskId": "a8515ec8-7254-4ffd-912c-86772e2b5962",
+							"version": "2.*",
+							"name": "Replace tokens in **/*.yml",
+							"refName": "",
+							"enabled": true,
+							"alwaysRun": false,
+							"continueOnError": false,
+							"timeoutInMinutes": 0,
+							"definitionType": "task",
+							"overrideInputs": {},
+							"condition": "succeeded()",
+							"inputs": {
+								"rootDirectory": "$(System.DefaultWorkingDirectory)/$(Release.PrimaryArtifactSourceAlias)/drop",
+								"targetFiles": "**/*.yml",
+								"encoding": "auto",
+								"writeBOM": "true",
+								"actionOnMissing": "warn",
+								"keepToken": "false",
+								"tokenPrefix": "#{",
+								"tokenSuffix": "}#",
+								"emptyValue": "(empty)"
+							}
+						},
+						{
+							"environment": {},
+							"taskId": "ebaf1cdc-a60f-4e57-ba29-e3b8f80aeb1e",
+							"version": "2.*",
+							"name": "OCP Deploy Template",
+							"refName": "",
+							"enabled": true,
+							"alwaysRun": false,
+							"continueOnError": false,
+							"timeoutInMinutes": 0,
+							"definitionType": "task",
+							"overrideInputs": {},
+							"condition": "succeeded()",
+							"inputs": {
+								"connectionType": "OpenShift Connection Service",
+								"openshiftService": "ad21606a-841b-4cef-8687-a3471789c976",
+								"configurationType": "file",
+								"configurationPath": "",
+								"inlineConfig": "",
+								"version": "",
+								"cmd": "process -f $(system.defaultworkingdirectory)/$(Release.PrimaryArtifactSourceAlias)/drop/src/main/template/templateESB.yml | oc apply -n $(NAMESPACE) -f -",
+								"ignoreFlag": "false",
+								"uselocalOc": "true",
+								"proxy": ""
+							}
+						},
+						{
+							"environment": {},
+							"taskId": "ebaf1cdc-a60f-4e57-ba29-e3b8f80aeb1e",
+							"version": "2.*",
+							"name": "OCP Copy Image",
+							"refName": "",
+							"enabled": true,
+							"alwaysRun": false,
+							"continueOnError": false,
+							"timeoutInMinutes": 0,
+							"definitionType": "task",
+							"overrideInputs": {},
+							"condition": "succeeded()",
+							"inputs": {
+								"connectionType": "OpenShift Connection Service",
+								"openshiftService": "ad21606a-841b-4cef-8687-a3471789c976",
+								"configurationType": "file",
+								"configurationPath": "",
+								"inlineConfig": "",
+								"version": "",
+								"cmd": "image mirror $(ARO_URL_DOCKER_DEV)/$(NAMESPACE)/$(APPLICATION_NAME):latest $(ARO_URL_DOCKER_QA)/$(NAMESPACE)/$(APPLICATION_NAME):latest --insecure=true",
+								"ignoreFlag": "false",
+								"uselocalOc": "true",
+								"proxy": ""
+							}
+						},
+						{
+							"environment": {},
+							"taskId": "ebaf1cdc-a60f-4e57-ba29-e3b8f80aeb1e",
+							"version": "2.*",
+							"name": "OCP Copy Image Azure",
+							"refName": "",
+							"enabled": true,
+							"alwaysRun": false,
+							"continueOnError": false,
+							"timeoutInMinutes": 0,
+							"definitionType": "task",
+							"overrideInputs": {},
+							"condition": "succeeded()",
+							"inputs": {
+								"connectionType": "OpenShift Connection Service",
+								"openshiftService": "ad21606a-841b-4cef-8687-a3471789c976",
+								"configurationType": "file",
+								"configurationPath": "",
+								"inlineConfig": "",
+								"version": "",
+								"cmd": "image mirror $(ARO_URL_DOCKER_QA)/$(NAMESPACE)/$(APPLICATION_NAME):latest $(URL_AZURE_REGISTRY)/$(NAMESPACE)/$(APPLICATION_NAME):latest --insecure=true",
+								"ignoreFlag": "false",
+								"uselocalOc": "true",
+								"proxy": ""
+							}
+						}
+					]
+				}
+			],
+			"environmentOptions": {
+				"emailNotificationType": "OnlyOnFailure",
+				"emailRecipients": "release.environment.owner;release.creator",
+				"skipArtifactsDownload": false,
+				"timeoutInMinutes": 0,
+				"enableAccessToken": false,
+				"publishDeploymentStatus": true,
+				"badgeEnabled": false,
+				"autoLinkWorkItems": false,
+				"pullRequestDeploymentEnabled": false
+			},
+			"demands": [],
+			"conditions": [
+				{
+					"name": "Dev",
+					"conditionType": 2,
+					"value": "4"
+				}
+			],
+			"executionPolicy": {
+				"concurrencyCount": 1,
+				"queueDepthCount": 0
+			},
+			"schedules": [],
+			"currentRelease": {
+				"id": 162,
+				"url": "https://aviancavsts.vsrm.visualstudio.com/3312eeb5-2d40-4811-a992-99fc45d952fd/_apis/Release/releases/162",
+				"_links": {}
+			},
+			"retentionPolicy": {
+				"daysToKeep": 30,
+				"releasesToKeep": 3,
+				"retainBuild": true
+			},
+			"processParameters": {},
+			"properties": {
+				"BoardsEnvironmentType": {
+					"$opentype": "System.String",
+					"$openvalue": "unmapped"
+				},
+				"LinkBoardsWorkItems": {
+					"$opentype": "System.String",
+					"$openvalue": "False"
+				}
+			},
+			"preDeploymentGates": {
+				"id": 0,
+				"gatesOptions": null,
+				"gates": []
+			},
+			"postDeploymentGates": {
+				"id": 0,
+				"gatesOptions": null,
+				"gates": []
+			},
+			"environmentTriggers": [],
+			"badgeUrl": "https://aviancavsts.vsrm.visualstudio.com/_apis/public/Release/badge/3312eeb5-2d40-4811-a992-99fc45d952fd/3/5"
+		},
+		{
+			"id": 162,
+			"name": "PRD",
+			"rank": 3,
+			"owner": {
+				"displayName": "Diego Andres Lozada Forero",
+				"url": "https://spsprodcus3.vssps.visualstudio.com/A02a0d101-5333-44fe-8ef7-4b4596b6cb0b/_apis/Identities/85ffee36-6851-67dc-92f3-5b26b9121947",
+				"_links": {
+					"avatar": {
+						"href": "https://aviancavsts.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.ODVmZmVlMzYtNjg1MS03N2RjLTkyZjMtNWIyNmI5MTIxOTQ3"
+					}
+				},
+				"id": "85ffee36-6851-67dc-92f3-5b26b9121947",
+				"uniqueName": "andres.lozada@avianca.com",
+				"imageUrl": "https://aviancavsts.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.ODVmZmVlMzYtNjg1MS03N2RjLTkyZjMtNWIyNmI5MTIxOTQ3",
+				"descriptor": "aad.ODVmZmVlMzYtNjg1MS03N2RjLTkyZjMtNWIyNmI5MTIxOTQ3"
+			},
+			"variables": {
+				"APPLICATION_VERSION": {
+					"value": "1.0.0"
+				},
+				"TZ": {
+					"value": "America/Bogota"
+				},
+				"CPU_REQUEST": {
+					"value": "30m"
+				},
+				"CPU_LIMIT": {
+					"value": "500m"
+				},
+				"MEMORY_LIMIT": {
+					"value": "256Mi"
+				},
+				"MEMORY_REQUEST": {
+					"value": "256Mi"
+				},
+				"KEYVAULT_CLIENT_ID": {
+					"value": ""
+				},
+				"KEYVAULT_CLIENT_KEY": {
+					"value": ""
+				},
+				"KEYVAULT_ENABLED": {
+					"value": "false"
+				},
+				"KEYVAULT_CLIENT_TENANT_ID": {
+					"value": ""
+				},
+				"KEYVAULT_URI": {
+					"value": ""
+				},
+				"APIPATH_CONSUMER_REST": {
+					"value": "vim"
+				},
+				"APIBASEPATH_CONSUMER_REST": {
+					"value": "api-doc"
+				},
+				"SERVICENAME_CONSUMER_REST": {
+					"value": "wsresttest"
+				},
+				"SERVICEID_CONSUMER_REST": {
+					"value": "wsresttest-id"
+				},
+				"CONTEXT_CONSUMER_REST": {
+					"value": "/wsresttest/*"
+				},
+				"INGRESS": {
+					"value": "appspci"
+				},
+				"CLUSTERNAME": {
+					"value": "aroprd"
+				},
+				"BASEDOMAIN": {
+					"value": "avianca.loc"
+				},
+				"HOST_PRODUCER_REST": {
+					"value": "host.domain.rest"
+				},
+				"CONTEXT_PRODUCER_REST": {
+					"value": "/context"
+				},
+				"SERVICE_PRODUCER_REST": {
+					"value": "service"
+				},
+				"METHOD_PRODUCER_REST": {
+					"value": "/methodname"
+				},
+				"TYPE_PRODUCER_REST": {
+					"value": "GET - POST"
+				}
+			},
+			"variableGroups": [],
+			"preDeployApprovals": {
+				"approvals": [
+					{
+						"rank": 1,
+						"isAutomated": true,
+						"isNotificationOn": false,
+						"id": 1389
+					}
+				],
+				"approvalOptions": {
+					"requiredApproverCount": null,
+					"releaseCreatorCanBeApprover": false,
+					"autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+					"enforceIdentityRevalidation": false,
+					"timeoutInMinutes": 0,
+					"executionOrder": 1
+				}
+			},
+			"deployStep": {
+				"id": 488
+			},
+			"postDeployApprovals": {
+				"approvals": [
+					{
+						"rank": 1,
+						"isAutomated": true,
+						"isNotificationOn": false,
+						"id": 489
+					}
+				],
+				"approvalOptions": {
+					"requiredApproverCount": null,
+					"releaseCreatorCanBeApprover": false,
+					"autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+					"enforceIdentityRevalidation": false,
+					"timeoutInMinutes": 0,
+					"executionOrder": 2
+				}
+			},
+			"deployPhases": [
+				{
+					"deploymentInput": {
+						"parallelExecution": {
+							"parallelExecutionType": 0
+						},
+						"timeoutInMinutes": 0,
+						"jobCancelTimeoutInMinutes": 1,
+						"condition": "succeeded()",
+						"overrideInputs": {}
+					},
+					"rank": 1,
+					"phaseType": 2,
+					"name": "Agentless job",
+					"refName": null,
+					"workflowTasks": [
+						{
+							"environment": {},
+							"taskId": "9c3e8943-130d-4c78-ac63-8af81df62dfb",
+							"version": "1.*",
+							"name": "Invoke REST API: POST",
+							"refName": "",
+							"enabled": true,
+							"alwaysRun": false,
+							"continueOnError": false,
+							"timeoutInMinutes": 500,
+							"retryCountOnTaskFailure": 0,
+							"definitionType": "task",
+							"overrideInputs": {},
+							"condition": "succeeded()",
+							"inputs": {
+								"connectedServiceNameSelector": "connectedServiceName",
+								"connectedServiceName": "8f45952a-0884-4b48-8da6-c3a0952b2336",
+								"connectedServiceNameARM": "f6edd1e3-b2d8-4d5d-be9f-e4468ab5be05",
+								"method": "POST",
+								"headers": "{\n\"Ocp-Apim-Subscription-Key\":\"$(APIM_SUBSCRIPTION_KEY)\"\n}",
+								"body": "{\n\"integration_name\":\"$(APPLICATION_NAME)\"\n}",
+								"urlSuffix": "checkSaim/integration",
+								"waitForCompletion": "false",
+								"successCriteria": ""
+							}
+						}
+					]
+				},
+				{
+					"deploymentInput": {
+						"parallelExecution": {
+							"parallelExecutionType": 0
+						},
+						"agentSpecification": null,
+						"skipArtifactsDownload": false,
+						"artifactsDownloadInput": {
+							"downloadInputs": []
+						},
+						"queueId": 1296,
+						"demands": [],
+						"enableAccessToken": false,
+						"timeoutInMinutes": 0,
+						"jobCancelTimeoutInMinutes": 1,
+						"condition": "succeeded()",
+						"overrideInputs": {}
+					},
+					"rank": 1,
+					"phaseType": 1,
+					"name": "Agent job",
+					"refName": null,
+					"workflowTasks": [
+						{
+							"environment": {},
+							"taskId": "d9bafed4-0b18-4f58-968d-86655b4d2ce9",
+							"version": "2.*",
+							"name": "Login Registry Azure",
+							"refName": "",
+							"enabled": true,
+							"alwaysRun": false,
+							"continueOnError": false,
+							"timeoutInMinutes": 0,
+							"definitionType": "task",
+							"overrideInputs": {},
+							"condition": "succeeded()",
+							"inputs": {
+								"script": "docker login -u $(USER_AZURE_REGISTRY) -p $(OC_TOKEN_AZURE) $(URL_AZURE_REGISTRY)",
+								"workingDirectory": "",
+								"failOnStderr": "false"
+							}
+						},
+						{
+							"environment": {},
+							"taskId": "d9bafed4-0b18-4f58-968d-86655b4d2ce9",
+							"version": "2.*",
+							"name": "Login Registry PRD",
+							"refName": "",
+							"enabled": true,
+							"alwaysRun": false,
+							"continueOnError": false,
+							"timeoutInMinutes": 0,
+							"definitionType": "task",
+							"overrideInputs": {},
+							"condition": "succeeded()",
+							"inputs": {
+								"script": "docker login -u $(ARO_USER_DOCKER_PRD) -p $(ARO_TOKEN_PRD) $(ARO_URL_DOCKER_PRD)",
+								"workingDirectory": "/home/adminagent/oc-client",
+								"failOnStderr": "false"
+							}
+						},
+						{
+							"environment": {},
+							"taskId": "ebaf1cdc-a60f-4e57-ba29-e3b8f80aeb1e",
+							"version": "2.*",
+							"name": "OCP Apply ConfigMap",
+							"refName": "",
+							"enabled": true,
+							"alwaysRun": false,
+							"continueOnError": false,
+							"timeoutInMinutes": 0,
+							"definitionType": "task",
+							"overrideInputs": {},
+							"condition": "succeeded()",
+							"inputs": {
+								"connectionType": "OpenShift Connection Service",
+								"openshiftService": "2e31d386-dcdc-4bd6-a8e6-41414a5ae92c",
+								"configurationType": "file",
+								"configurationPath": "",
+								"inlineConfig": "",
+								"version": "",
+								"cmd": "create configmap $(APPLICATION_NAME)-config --from-file=$(system.defaultworkingdirectory)/$(Release.PrimaryArtifactSourceAlias)/drop/src/main/resources -n $(NAMESPACE) --dry-run=true -o yaml | oc apply -n $(NAMESPACE) -f -",
+								"ignoreFlag": "false",
+								"uselocalOc": "true",
+								"proxy": ""
+							}
+						},
+						{
+							"environment": {},
+							"taskId": "ebaf1cdc-a60f-4e57-ba29-e3b8f80aeb1e",
+							"version": "2.*",
+							"name": "OCP set ConfigMap label",
+							"refName": "",
+							"enabled": true,
+							"alwaysRun": false,
+							"continueOnError": false,
+							"timeoutInMinutes": 0,
+							"definitionType": "task",
+							"overrideInputs": {},
+							"condition": "succeeded()",
+							"inputs": {
+								"connectionType": "OpenShift Connection Service",
+								"openshiftService": "2e31d386-dcdc-4bd6-a8e6-41414a5ae92c",
+								"configurationType": "file",
+								"configurationPath": "",
+								"inlineConfig": "",
+								"version": "",
+								"cmd": "label configmap $(APPLICATION_NAME)-config app=$(APPLICATION_NAME) --overwrite=true -n $(NAMESPACE)",
+								"ignoreFlag": "false",
+								"uselocalOc": "true",
+								"proxy": ""
+							}
+						},
+						{
+							"environment": {},
+							"taskId": "a8515ec8-7254-4ffd-912c-86772e2b5962",
+							"version": "2.*",
+							"name": "Replace tokens in **/*.yml",
+							"refName": "",
+							"enabled": true,
+							"alwaysRun": false,
+							"continueOnError": false,
+							"timeoutInMinutes": 0,
+							"definitionType": "task",
+							"overrideInputs": {},
+							"condition": "succeeded()",
+							"inputs": {
+								"rootDirectory": "$(System.DefaultWorkingDirectory)/$(Release.PrimaryArtifactSourceAlias)/drop",
+								"targetFiles": "**/*.yml",
+								"encoding": "auto",
+								"writeBOM": "true",
+								"actionOnMissing": "warn",
+								"keepToken": "false",
+								"tokenPrefix": "#{",
+								"tokenSuffix": "}#",
+								"emptyValue": "(empty)"
+							}
+						},
+						{
+							"environment": {},
+							"taskId": "ebaf1cdc-a60f-4e57-ba29-e3b8f80aeb1e",
+							"version": "2.*",
+							"name": "OCP Deploy Template",
+							"refName": "",
+							"enabled": true,
+							"alwaysRun": false,
+							"continueOnError": false,
+							"timeoutInMinutes": 0,
+							"definitionType": "task",
+							"overrideInputs": {},
+							"condition": "succeeded()",
+							"inputs": {
+								"connectionType": "OpenShift Connection Service",
+								"openshiftService": "2e31d386-dcdc-4bd6-a8e6-41414a5ae92c",
+								"configurationType": "file",
+								"configurationPath": "",
+								"inlineConfig": "",
+								"version": "",
+								"cmd": "process -f $(system.defaultworkingdirectory)/$(Release.PrimaryArtifactSourceAlias)/drop/src/main/template/templateESB.yml | oc apply -n $(NAMESPACE) -f -",
+								"ignoreFlag": "false",
+								"uselocalOc": "true",
+								"proxy": ""
+							}
+						},
+						{
+							"environment": {},
+							"taskId": "ebaf1cdc-a60f-4e57-ba29-e3b8f80aeb1e",
+							"version": "2.*",
+							"name": "OCP Copy Image Azure",
+							"refName": "",
+							"enabled": true,
+							"alwaysRun": false,
+							"continueOnError": false,
+							"timeoutInMinutes": 0,
+							"definitionType": "task",
+							"overrideInputs": {},
+							"condition": "succeeded()",
+							"inputs": {
+								"connectionType": "OpenShift Connection Service",
+								"openshiftService": "2e31d386-dcdc-4bd6-a8e6-41414a5ae92c",
+								"configurationType": "file",
+								"configurationPath": "",
+								"inlineConfig": "",
+								"version": "",
+								"cmd": "image mirror $(URL_AZURE_REGISTRY)/$(NAMESPACE)/$(APPLICATION_NAME):latest $(ARO_URL_DOCKER_PRD)/$(NAMESPACE)/$(APPLICATION_NAME):latest --insecure=true",
+								"ignoreFlag": "false",
+								"uselocalOc": "true",
+								"proxy": ""
+							}
+						}
+					]
+				}
+			],
+			"environmentOptions": {
+				"emailNotificationType": "OnlyOnFailure",
+				"emailRecipients": "release.environment.owner;release.creator",
+				"skipArtifactsDownload": false,
+				"timeoutInMinutes": 0,
+				"enableAccessToken": false,
+				"publishDeploymentStatus": true,
+				"badgeEnabled": false,
+				"autoLinkWorkItems": false,
+				"pullRequestDeploymentEnabled": false
+			},
+			"demands": [],
+			"conditions": [
+				{
+					"name": "QA",
+					"conditionType": 2,
+					"value": "4"
+				}
+			],
+			"executionPolicy": {
+				"concurrencyCount": 1,
+				"queueDepthCount": 0
+			},
+			"schedules": [],
+			"currentRelease": {
+				"id": 1759,
+				"url": "https://aviancavsts.vsrm.visualstudio.com/3312eeb5-2d40-4811-a992-99fc45d952fd/_apis/Release/releases/1759",
+				"_links": {}
+			},
+			"retentionPolicy": {
+				"daysToKeep": 30,
+				"releasesToKeep": 3,
+				"retainBuild": true
+			},
+			"processParameters": {},
+			"properties": {
+				"BoardsEnvironmentType": {
+					"$type": "System.String",
+					"$value": "testing"
+				},
+				"LinkBoardsWorkItems": {
+					"$type": "System.String",
+					"$value": "False"
+				}
+			},
+			"preDeploymentGates": {
+				"id": 0,
+				"gatesOptions": null,
+				"gates": []
+			},
+			"postDeploymentGates": {
+				"id": 0,
+				"gatesOptions": null,
+				"gates": []
+			},
+			"environmentTriggers": [],
+			"badgeUrl": "https://aviancavsts.vsrm.visualstudio.com/_apis/public/Release/badge/3312eeb5-2d40-4811-a992-99fc45d952fd/25/162"
+		},
+		{
+			"id": 1598,
+			"name": "Fluid Status",
+			"rank": 4,
+			"owner": {
+				"displayName": "Marta Eugenia Gonzalez",
+				"url": "https://spsprodcus3.vssps.visualstudio.com/A02a0d101-5333-44fe-8ef7-4b4596b6cb0b/_apis/Identities/9d6b2195-5ca3-6a75-903a-a5a1feeb0b52",
+				"_links": {
+					"avatar": {
+						"href": "https://aviancavsts.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.OWQ2YjIxOTUtNWNhMy03YTc1LTkwM2EtYTVhMWZlZWIwYjUy"
+					}
+				},
+				"id": "9d6b2195-5ca3-6a75-903a-a5a1feeb0b52",
+				"uniqueName": "martaeugenia.gonzalez@avianca.com",
+				"imageUrl": "https://aviancavsts.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.OWQ2YjIxOTUtNWNhMy03YTc1LTkwM2EtYTVhMWZlZWIwYjUy",
+				"descriptor": "aad.OWQ2YjIxOTUtNWNhMy03YTc1LTkwM2EtYTVhMWZlZWIwYjUy"
+			},
+			"variables": {
+				"fluid_token": {
+					"value": "pendiente definir con Marta...",
+					"isSecret": false
+				}
+			},
+			"variableGroups": [],
+			"preDeployApprovals": {
+				"approvals": [
+					{
+						"rank": 1,
+						"isAutomated": true,
+						"isNotificationOn": false,
+						"id": 6734
+					}
+				],
+				"approvalOptions": {
+					"requiredApproverCount": null,
+					"releaseCreatorCanBeApprover": false,
+					"autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+					"enforceIdentityRevalidation": false,
+					"timeoutInMinutes": 0,
+					"executionOrder": 1
+				}
+			},
+			"deployStep": {
+				"id": 6735
+			},
+			"postDeployApprovals": {
+				"approvals": [
+					{
+						"rank": 1,
+						"isAutomated": true,
+						"isNotificationOn": false,
+						"id": 6736
+					}
+				],
+				"approvalOptions": {
+					"requiredApproverCount": null,
+					"releaseCreatorCanBeApprover": false,
+					"autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+					"enforceIdentityRevalidation": false,
+					"timeoutInMinutes": 0,
+					"executionOrder": 2
+				}
+			},
+			"deployPhases": [
+				{
+					"deploymentInput": {
+						"parallelExecution": {
+							"parallelExecutionType": 0
+						},
+						"agentSpecification": null,
+						"skipArtifactsDownload": false,
+						"artifactsDownloadInput": {
+							"downloadInputs": []
+						},
+						"queueId": 1222,
+						"demands": [],
+						"enableAccessToken": false,
+						"timeoutInMinutes": 0,
+						"jobCancelTimeoutInMinutes": 1,
+						"condition": "succeeded()",
+						"overrideInputs": {}
+					},
+					"rank": 1,
+					"phaseType": 1,
+					"name": "Agent job",
+					"refName": null,
+					"workflowTasks": [
+						{
+							"environment": {},
+							"taskId": "e28912f1-0114-4464-802a-a3a35437fd16",
+							"version": "2.*",
+							"name": "Docker Pull Fluid Image",
+							"refName": "",
+							"enabled": true,
+							"alwaysRun": false,
+							"continueOnError": false,
+							"timeoutInMinutes": 0,
+							"retryCountOnTaskFailure": 0,
+							"definitionType": "task",
+							"overrideInputs": {},
+							"condition": "succeeded()",
+							"inputs": {
+								"containerRegistry": "",
+								"repository": "",
+								"command": "pull",
+								"Dockerfile": "**/Dockerfile",
+								"buildContext": "**",
+								"tags": "$(Build.BuildId)",
+								"arguments": "fluidattacks/forces:new",
+								"addPipelineData": "true",
+								"addBaseImageData": "true",
+								"container": ""
+							}
+						},
+						{
+							"environment": {},
+							"taskId": "e28912f1-0114-4464-802a-a3a35437fd16",
+							"version": "2.*",
+							"name": "Docker Run",
+							"refName": "",
+							"enabled": true,
+							"alwaysRun": false,
+							"continueOnError": false,
+							"timeoutInMinutes": 0,
+							"retryCountOnTaskFailure": 0,
+							"definitionType": "task",
+							"overrideInputs": {},
+							"condition": "succeeded()",
+							"inputs": {
+								"containerRegistry": "",
+								"repository": "",
+								"command": "run",
+								"Dockerfile": "**/Dockerfile",
+								"buildContext": "**",
+								"tags": "$(Build.BuildId)",
+								"arguments": "--rm fluidattacks/forces:new forces --token $(fluid_token) -vv --strict --repo-name $(Build.Repository.Name)",
+								"addPipelineData": "true",
+								"addBaseImageData": "true",
+								"container": ""
+							}
+						},
+						{
+							"environment": {},
+							"taskId": "175c8a10-0ef0-11e7-936d-2100de00518d",
+							"version": "3.*",
+							"name": "Clean Agent Directories",
+							"refName": "",
+							"enabled": true,
+							"alwaysRun": false,
+							"continueOnError": false,
+							"timeoutInMinutes": 0,
+							"retryCountOnTaskFailure": 0,
+							"definitionType": "task",
+							"overrideInputs": {},
+							"condition": "succeeded()",
+							"inputs": {
+								"disableCertCheck": "false"
+							}
+						}
+					]
+				}
+			],
+			"environmentOptions": {
+				"emailNotificationType": "OnlyOnFailure",
+				"emailRecipients": "release.environment.owner;release.creator",
+				"skipArtifactsDownload": false,
+				"timeoutInMinutes": 0,
+				"enableAccessToken": false,
+				"publishDeploymentStatus": true,
+				"badgeEnabled": false,
+				"autoLinkWorkItems": false,
+				"pullRequestDeploymentEnabled": false
+			},
+			"demands": [],
+			"conditions": [
+				{
+					"name": "QA",
+					"conditionType": 2,
+					"value": "4"
+				}
+			],
+			"executionPolicy": {
+				"concurrencyCount": 1,
+				"queueDepthCount": 0
+			},
+			"schedules": [],
+			"currentRelease": {
+				"id": 7588,
+				"url": "https://aviancavsts.vsrm.visualstudio.com/c04adffd-a70d-4ab6-93c9-1814e9c76180/_apis/Release/releases/7588",
+				"_links": {}
+			},
+			"retentionPolicy": {
+				"daysToKeep": 30,
+				"releasesToKeep": 3,
+				"retainBuild": true
+			},
+			"processParameters": {},
+			"properties": {
+				"BoardsEnvironmentType": {
+					"$type": "System.String",
+					"$value": "unmapped"
+				},
+				"LinkBoardsWorkItems": {
+					"$type": "System.String",
+					"$value": "False"
+				}
+			},
+			"preDeploymentGates": {
+				"id": 0,
+				"gatesOptions": null,
+				"gates": []
+			},
+			"postDeploymentGates": {
+				"id": 0,
+				"gatesOptions": null,
+				"gates": []
+			},
+			"environmentTriggers": [],
+			"badgeUrl": "https://aviancavsts.vsrm.visualstudio.com/_apis/public/Release/badge/c04adffd-a70d-4ab6-93c9-1814e9c76180/457/1598"
+		},
+		{
+			"name": "PullRequest",
+			"rank": 3,
+			"owner": {
+				"displayName": "Marta Eugenia Gonzalez",
+				"url": "https://spsprodcus3.vssps.visualstudio.com/A02a0d101-5333-44fe-8ef7-4b4596b6cb0b/_apis/Identities/9d6b2195-5ca3-6a75-903a-a5a1feeb0b52",
+				"_links": {
+					"avatar": {
+						"href": "https://aviancavsts.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.OWQ2YjIxOTUtNWNhMy03YTc1LTkwM2EtYTVhMWZlZWIwYjUy"
+					}
+				},
+				"id": "9d6b2195-5ca3-6a75-903a-a5a1feeb0b52",
+				"uniqueName": "martaeugenia.gonzalez@avianca.com",
+				"imageUrl": "https://aviancavsts.visualstudio.com/_apis/GraphProfile/MemberAvatars/aad.OWQ2YjIxOTUtNWNhMy03YTc1LTkwM2EtYTVhMWZlZWIwYjUy",
+				"descriptor": "aad.OWQ2YjIxOTUtNWNhMy03YTc1LTkwM2EtYTVhMWZlZWIwYjUy"
+			},
+			"variables": {},
+			"variableGroups": [],
+			"preDeployApprovals": {
+				"approvals": [
+					{
+						"rank": 1,
+						"isAutomated": true,
+						"isNotificationOn": false,
+						"id": 8289
+					}
+				],
+				"approvalOptions": {
+					"requiredApproverCount": null,
+					"releaseCreatorCanBeApprover": true,
+					"autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+					"enforceIdentityRevalidation": false,
+					"timeoutInMinutes": 0,
+					"executionOrder": 1
+				}
+			},
+			"deployStep": {
+				"id": 6599
+			},
+			"postDeployApprovals": {
+				"approvals": [
+					{
+						"rank": 1,
+						"isAutomated": true,
+						"isNotificationOn": false,
+						"id": 6600
+					}
+				],
+				"approvalOptions": {
+					"requiredApproverCount": null,
+					"releaseCreatorCanBeApprover": false,
+					"autoTriggeredAndPreviousEnvironmentApprovedCanBeSkipped": false,
+					"enforceIdentityRevalidation": false,
+					"timeoutInMinutes": 0,
+					"executionOrder": 2
+				}
+			},
+			"deployPhases": [
+				{
+					"deploymentInput": {
+						"parallelExecution": {
+							"parallelExecutionType": 0
+						},
+						"agentSpecification": null,
+						"skipArtifactsDownload": false,
+						"artifactsDownloadInput": {
+							"downloadInputs": []
+						},
+						"queueId": 1226,
+						"demands": [],
+						"enableAccessToken": false,
+						"timeoutInMinutes": 0,
+						"jobCancelTimeoutInMinutes": 1,
+						"condition": "succeeded()",
+						"overrideInputs": {}
+					},
+					"rank": 1,
+					"phaseType": 1,
+					"name": "Agent job",
+					"refName": null,
+					"workflowTasks": [
+						{
+							"environment": {},
+							"taskId": "2f159376-316b-4652-a49c-392f9d534113",
+							"version": "1.*",
+							"name": "Create Pull Request",
+							"refName": "",
+							"enabled": true,
+							"alwaysRun": false,
+							"continueOnError": false,
+							"timeoutInMinutes": 0,
+							"retryCountOnTaskFailure": 0,
+							"definitionType": "task",
+							"overrideInputs": {},
+							"condition": "succeeded()",
+							"inputs": {
+								"repoType": "Azure DevOps",
+								"githubEndpoint": "",
+								"repositorySelector": "currentBuild",
+								"githubRepository": "$(Build.Repository.Name)",
+								"projectId": "",
+								"gitRepositoryId": "",
+								"isForked": "false",
+								"sourceBranch": "$(Build.SourceBranch)",
+								"targetBranch": "$(BranchTarget)",
+								"title": "$(Title)",
+								"description": "$(Description)",
+								"reviewers": "",
+								"tags": "",
+								"isDraft": "false",
+								"linkWorkItems": "false",
+								"passPullRequestIdBackToADO": "false",
+								"autoComplete": "false",
+								"githubAutoMerge": "false",
+								"mergeStrategy": "Merge (No fast-forward)",
+								"githubMergeStrategy": "merge",
+								"deleteSource": "false",
+								"githubDeleteSourceBranch": "false",
+								"commitMessage": "",
+								"githubMergeCommitTitle": "",
+								"githubMergeCommitMessage": "",
+								"transitionWorkItems": "false",
+								"bypassPolicy": "false",
+								"bypassReason": "",
+								"alwaysCreatePr": "false"
+							}
+						}
+					]
+				}
+			],
+			"environmentOptions": {
+				"emailNotificationType": "OnlyOnFailure",
+				"emailRecipients": "release.environment.owner;release.creator",
+				"skipArtifactsDownload": false,
+				"timeoutInMinutes": 0,
+				"enableAccessToken": false,
+				"publishDeploymentStatus": true,
+				"badgeEnabled": false,
+				"autoLinkWorkItems": false,
+				"pullRequestDeploymentEnabled": false
+			},
+			"demands": [],
+			"conditions": [
+				{
+					"name": "PRD",
+					"conditionType": 2,
+					"value": "4"
+				}
+			],
+			"executionPolicy": {
+				"concurrencyCount": 1,
+				"queueDepthCount": 0
+			},
+			"schedules": [],
+			"currentRelease": {
+				"id": 7314,
+				"url": "https://aviancavsts.vsrm.visualstudio.com/c04adffd-a70d-4ab6-93c9-1814e9c76180/_apis/Release/releases/7314",
+				"_links": {}
+			},
+			"retentionPolicy": {
+				"daysToKeep": 30,
+				"releasesToKeep": 3,
+				"retainBuild": true
+			},
+			"processParameters": {},
+			"properties": {
+				"BoardsEnvironmentType": {
+					"$type": "System.String",
+					"$value": "unmapped"
+				},
+				"LinkBoardsWorkItems": {
+					"$type": "System.String",
+					"$value": "False"
+				}
+			},
+			"preDeploymentGates": {
+				"id": 0,
+				"gatesOptions": null,
+				"gates": []
+			},
+			"postDeploymentGates": {
+				"id": 0,
+				"gatesOptions": null,
+				"gates": []
+			},
+			"environmentTriggers": [],
+			"badgeUrl": "https://aviancavsts.vsrm.visualstudio.com/_apis/public/Release/badge/c04adffd-a70d-4ab6-93c9-1814e9c76180/553/1562"
+		}
+	],
+	"triggers": [],
+	"releaseNameFormat": "Release-$(rev:r)",
+	"tags": [],
+	"properties": {
+		"DefinitionCreationSource": {
+			"$opentype": "System.String",
+			"$openvalue": "ReleaseImport"
+		},
+		"IntegrateBoardsWorkItems": {
+			"$opentype": "System.String",
+			"$openvalue": "False"
+		},
+		"IntegrateJiraWorkItems": {
+			"$opentype": "System.String",
+			"$openvalue": "false"
+		}
+	},
+	"id": 3,
+	"name": "-wsresttest-CD",
+	"path": "\\",
+	"projectReference": null,
+	"url": "https://aviancavsts.vsrm.visualstudio.com/3312eeb5-2d40-4811-a992-99fc45d952fd/_apis/Release/definitions/3",
+	"_links": {
+		"self": {
+			"href": "https://aviancavsts.vsrm.visualstudio.com/3312eeb5-2d40-4811-a992-99fc45d952fd/_apis/Release/definitions/3"
+		},
+		"web": {
+			"href": "https://aviancavsts.visualstudio.com/3312eeb5-2d40-4811-a992-99fc45d952fd/_release?definitionId=3"
+		}
+	}
+}
