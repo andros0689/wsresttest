@@ -9,7 +9,7 @@
 	<artifactId>wsresttest</artifactId>
 	<version>1.0.0</version>
 
-	<name>Avianca :: Integrations :: Spring-Boot :: Camel REST / REST</name>
+	<name>Avianca :: Integrations :: Spring-Boot :: Camel REST / REST Ajuste version</name>
 	<description>Spring Boot example running a Camel REST route connecting to a REST Service</description>
 
 	<properties>
