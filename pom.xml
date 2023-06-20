@@ -14,7 +14,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<fuse.bom.version>#{fuseVersion}#</fuse.bom.version>
+		<fuse.bom.version>7.7.0.fuse-sb2-770010-redhat-00001</fuse.bom.version>
 		<spring-boot.version>2.3.5.RELEASE</spring-boot.version>
 		<azure.version>2.3.0</azure.version>
 		<maven-compiler-plugin.version>3.6.0</maven-compiler-plugin.version>
