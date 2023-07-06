@@ -27,7 +27,7 @@ public class TransformationComponent {
 
 	public static String returnMessage(String body, Exchange ex) {
 		body = "{\"status\": \"active\"}";
-		logger.info("Servicio activo...");
+		logger.info("Servicio activo, prueba de webhook...");
 		ex.getIn().setHeader("CamelHttpResponseCode", 200);
 		ex.getIn().setHeader("Content-Type", "application/json");
 		return body;
